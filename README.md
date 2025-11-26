@@ -1,11 +1,47 @@
-# Customer-Segmentation
+# Customer Segmentation using RFM, PCA & K-Means Clustering
 
-Smart marketers understand the importance of “know thy customer.” Instead of simply focusing on generating more clicks, marketers must follow the paradigm shift from increased CTRs (Click-Through Rates) to retention, loyalty, and building customer relationships.
+This project performs data-driven customer segmentation using the **RFM (Recency, Frequency, Monetary)** model and **K-Means clustering**, with optional **PCA** for dimensionality reduction. The goal is to identify distinct customer groups based on purchasing behavior, enabling targeted marketing, retention campaigns, and optimized business strategies.
 
-Instead of analyzing the entire customer base as a whole, it’s better to segment them into homogeneous groups, understand the traits of each group, and engage them with relevant campaigns rather than segmenting on just customer age or geography.
+---
 
-One of the most popular, easy-to-use, and effective segmentation methods to enable marketers to analyze customer behavior is RFM analysis.
+## 📌 Why This Project Matters
 
-What is RFM Analysis?
-RFM stands for Recency, Frequency, and Monetary value, each corresponding to some key customer trait. These RFM metrics are important indicators of a customer’s behavior because frequency and monetary value affects a customer’s lifetime value, and recency affects retention, a measure of engagement.
+Businesses often treat all customers the same — resulting in wasted marketing spend and poor retention.  
+This project helps solve that by:
 
+- Identifying **high-value customers**  
+- Detecting **at-risk or dormant customers**  
+- Improving **personalized marketing**  
+- Enhancing **customer lifetime value (CLV)**  
+- Prioritizing resources for maximum ROI  
+
+This is one of the most practical and widely used segmentation techniques in analytics, product, and marketing teams.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Python**
+- **Pandas**, **NumPy**
+- **Scikit-learn** (K-Means, PCA)
+- **Matplotlib**, **Seaborn**
+- **Jupyter Notebook**
+
+---
+
+## 📂 Repository Structure
+
+Customer-Segmentation/
+│
+├── Mall_Customers.csv # Dataset
+├── ML project final.ipynb # Main analysis notebook
+├── ML_REPORT.docx # Business insights & findings
+└── README.md # Project documentation
+
+---
+
+## ⚙️ How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Shreyas398/Customer-Segmentation.git
