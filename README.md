@@ -31,12 +31,14 @@ This is one of the most practical and widely used segmentation techniques in ana
 
 ## 📂 Repository Structure
 
+```
 Customer-Segmentation/
 │
-├── Mall_Customers.csv # Dataset
-├── ML project final.ipynb # Main analysis notebook
-├── ML_REPORT.docx # Business insights & findings
-└── README.md # Project documentation
+├── Mall_Customers.csv         # Dataset
+├── ML project final.ipynb     # Main analysis notebook
+├── ML_REPORT.docx             # Business insights & findings
+└── README.md                  # Project documentation
+```
 
 ---
 
